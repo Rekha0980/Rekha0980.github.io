@@ -1,0 +1,241 @@
+.stas_heading {
+    width: 20%;
+    color: mediumpurple;
+    margin: auto;
+   
+}
+
+.stats_box2 {
+    width: 60%;
+    height: 200px;
+    display: flex;
+    margin: auto;
+}
+
+.stats_box2 div img {
+    height: 160px;
+    margin-right: 10px;
+}
+
+.stats_box1 {
+    width: 40%;
+    height: 200px;
+    margin: auto;
+
+}
+
+@media only screen and (max-width:900px) {
+    .stas_heading {
+        width: 26%;
+        margin: auto;
+    }
+
+    .stats_box2 {
+        width: 80%;
+        height: 200px;
+        display: flex;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (max-width:320px) {
+
+    .stas_heading {
+        width: 90%;
+        margin: auto;
+        margin-top: -3px;
+
+
+    }
+    .stas_heading h1{
+      
+       margin-left: 20px;
+
+
+    }
+
+    .stats_box1 {
+        height: 150px;
+width: 90%;
+        margin-bottom: 20px;
+    }
+
+
+    .stats_box1 img {
+        width: 100%;
+    }
+
+    .stats_box2 {
+        width: 120%;
+        display: grid;
+        margin-top: -20px;
+        gap:10px
+    }
+    .st{
+        width: 75%;
+        margin-left: 10px;
+    }
+    .st2{
+        width: 75%;
+        margin-left: 10px;
+    }
+
+
+
+}
+
+@media all and (min-width:100px) and (max-width:450px){
+
+    .stas_heading {
+        width: 70%;
+        margin: auto;
+        margin-top: -3px;
+
+
+    }
+    .stas_heading h1{
+      font-size: 25px;
+       margin-left: 20px;
+
+
+    }
+
+    .stats_box1 {
+        height: 150px;
+width: 90%;
+        margin-bottom: 40px;
+   
+    }
+
+
+    .stats_box1 img {
+        width: 100%;
+    }
+
+    .stats_box2 {
+        width: 120%;
+        display: grid;
+        margin-top: -20px;
+        gap:10px
+    }
+    .st{
+        width: 75%;
+        margin-left: 10px;
+    }
+    .st2{
+        width: 75%;
+        margin-left: 10px;
+    }
+
+
+    .githubstats{
+        margin-bottom: 200px;
+        
+    }
+
+
+}
+
+@media all and (min-width:451px) and (max-width:750px){
+    .stas_heading {
+        width: 40%;
+        margin: auto;
+        margin-top: -3px;
+       
+
+
+    }
+    .stas_heading h1{
+       margin-left: 20px;
+
+
+    }
+
+    .stats_box1 {
+        height: 100px;
+width: 80%;
+        margin-bottom: 150px;
+   
+    }
+
+
+    .stats_box1 img {
+        width: 100%;
+    }
+
+    .stats_box2 {
+        display: grid;
+        gap:20px;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .st{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .st2{
+        width: 90%;
+        margin-left: 10px;
+    }
+
+.githubstats{
+    margin-bottom: 200px;
+}
+
+
+
+
+}
+
+@media all and (min-width:751px) and (max-width:900px){
+    .stas_heading {
+        width: 40%;
+        margin: auto;
+        margin-top: -3px;
+      
+
+
+    }
+    .stas_heading h1{
+       margin-left: 20px;
+
+
+    }
+
+    .stats_box1 {
+        height: 100px;
+width: 60%;
+        margin-bottom: 140px;
+   
+    }
+
+
+    .stats_box1 img {
+        width: 100%;
+    }
+
+    .stats_box2 {
+        display: grid;
+        gap:20px;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .st{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .st2{
+        width: 90%;
+        margin-left: 10px;
+    }
+
+.githubstats{
+    margin-bottom: 200px;
+}
+
+
+
+
+
+}

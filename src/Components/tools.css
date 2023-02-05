@@ -1,0 +1,105 @@
+.tools_heading{
+    margin: auto;
+    width: 15%;
+    color: mediumpurple;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.tools{
+    display: flex;
+    width: 52%;
+    height:200px;
+    margin: auto;
+  
+}
+.tools div{
+  
+    margin-right: 30px;
+    width: 70%;
+    text-align: center;
+    padding: 14px;
+    border-radius: 10px ;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.tools div img{
+    height: 120px;
+    width: 60%;
+}
+@media only screen and (max-width:900px){
+    .tools_heading{
+        margin: auto;
+        width: 30%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .tools{
+        display: flex;
+        width: 55%;
+        height:200px;
+        margin: auto;
+      
+    }
+
+}
+@media only screen and (max-width:320px){
+    .tools_heading{
+        margin: auto;
+        width: 60%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .tools{
+        display: grid;
+        width: 45%;
+        height:180px;
+        margin: auto;
+        gap:30px;
+      
+    }
+   
+    
+}
+
+@media all and (min-width:100px) and (max-width:450px){
+    .tools_heading{
+        margin: auto;
+        width: 55%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .tools{
+        display: grid;
+        width: 45%;
+        margin: auto;
+        gap:30px;
+      
+    }
+    .tooltop{
+        margin-bottom: 600px;
+    }
+}
+
+@media all and (min-width:451px) and (max-width:750px){
+    .tools_heading{
+        margin: auto;
+        width: 45%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+
+    }
+    .tools{
+        display: grid;
+        width: 45%;
+        margin: auto;
+        gap:30px;
+        
+      
+    }
+    .tooltop{
+        margin-bottom: 600px;
+    }
+}
+
+@media all and (min-width:750px) and (max-width:900px){
+
+}

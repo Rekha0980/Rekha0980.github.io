@@ -1,0 +1,111 @@
+.cal{
+   
+    width: 65%;
+    margin: auto;
+    margin-top: 80px;
+}
+.cal_heading{
+    width:50%;
+    margin:auto;
+    color: mediumpurple;
+}
+@media only screen and (max-width:320px){
+    /* .cal{
+        
+        width: 98%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .cal_heading{
+        width:80%;
+        margin:auto;
+       
+       
+    }
+    .cal_heading h1{
+        font-size: 17.9px;
+        margin-bottom: 20px;
+    } */
+    
+
+}
+
+@media only screen and (max-width:900px){
+    .cal{
+        
+        width: 85%;
+        margin: auto;
+        margin-top: 20px;
+        
+    }
+
+}
+
+
+@media all and (min-width:100px) and (max-width:450px){
+    .cal{
+        
+        width: 98%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        height: 200px;
+    }
+
+    .cal_heading{
+        width:65%;
+        margin:auto;
+        font-size: 13px;
+        
+       
+       
+    }
+    .cal_heading h1{
+        font-size: 17.9px;
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (min-width:451px) and (max-width:750px){
+    .cal{
+        
+        width: 98%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+       
+        height: 200px;
+    }
+
+    .cal_heading{
+        width:50%;
+        margin:auto;
+        font-size: 13px;
+        
+       
+       
+    }
+    .cal_heading h1{
+        font-size: 17.9px;
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (min-width:751px) and (max-width:900px){
+    .cal{
+        
+        width: 85%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        height: 200px;
+    }
+    .cal_heading h1{
+       
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+}
